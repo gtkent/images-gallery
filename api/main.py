@@ -14,7 +14,7 @@ if not UNSPLASH_KEY:
 
 app = Flask(__name__)
 
-app.config["Debug"] = DEBUG
+app.config["DEBUG"] = DEBUG
 
 @app.route("/new-image")
 def new_image():
